@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Sudoku</h1>
+      <div class="controls">
+        <button onclick="generate()">Reset</button>
+        <button onclick="erase()">Erase</button>
+        <button class="submitable" onclick="check()">Submit</button>
+        <button onclick="solve()">Solve</button>
+        <button onclick="reload()">New</button>
+      </div>
+      <div class="sudoko">
+        <div class="box b1">
+          <div class="cell c1"></div>
+          <div class="cell c2"></div>
+          <div class="cell c3"></div>
+          <div class="cell c4"></div>
+          <div class="cell c5"></div>
+          <div class="cell c6"></div>
+          <div class="cell c7"></div>
+          <div class="cell c8"></div>
+          <div class="cell c9"></div>
+        </div>
+        <div class="box b2">
+          <div class="cell c1"></div>
+          <div class="cell c2"></div>
+          <div class="cell c3"></div>
+          <div class="cell c4"></div>
+          <div class="cell c5"></div>
+          <div class="cell c6"></div>
+          <div class="cell c7"></div>
+          <div class="cell c8"></div>
+          <div class="cell c9"></div>
+        </div>
+        <div class="box b3">
+          <div class="cell c1"></div>
+          <div class="cell c2"></div>
+          <div class="cell c3"></div>
+          <div class="cell c4"></div>
+          <div class="cell c5"></div>
+          <div class="cell c6"></div>
+          <div class="cell c7"></div>
+          <div class="cell c8"></div>
+          <div class="cell c9"></div>
+        </div>
+        <div class="box b4">
+          <div class="cell c1"></div>
+          <div class="cell c2"></div>
+          <div class="cell c3"></div>
+          <div class="cell c4"></div>
+          <div class="cell c5"></div>
+          <div class="cell c6"></div>
+          <div class="cell c7"></div>
+          <div class="cell c8"></div>
+          <div class="cell c9"></div>
+        </div>
+        <div class="box b5">
+          <div class="cell c1"></div>
+          <div class="cell c2"></div>
+          <div class="cell c3"></div>
+          <div class="cell c4"></div>
+          <div class="cell c5"></div>
+          <div class="cell c6"></div>
+          <div class="cell c7"></div>
+          <div class="cell c8"></div>
+          <div class="cell c9"></div>
+        </div>
+        <div class="box b6">
+          <div class="cell c1"></div>
+          <div class="cell c2"></div>
+          <div class="cell c3"></div>
+          <div class="cell c4"></div>
+          <div class="cell c5"></div>
+          <div class="cell c6"></div>
+          <div class="cell c7"></div>
+          <div class="cell c8"></div>
+          <div class="cell c9"></div>
+        </div>
+        <div class="box b7">
+          <div class="cell c1"></div>
+          <div class="cell c2"></div>
+          <div class="cell c3"></div>
+          <div class="cell c4"></div>
+          <div class="cell c5"></div>
+          <div class="cell c6"></div>
+          <div class="cell c7"></div>
+          <div class="cell c8"></div>
+          <div class="cell c9"></div>
+        </div>
+        <div class="box b8">
+          <div class="cell c1"></div>
+          <div class="cell c2"></div>
+          <div class="cell c3"></div>
+          <div class="cell c4"></div>
+          <div class="cell c5"></div>
+          <div class="cell c6"></div>
+          <div class="cell c7"></div>
+          <div class="cell c8"></div>
+          <div class="cell c9"></div>
+        </div>
+        <div class="box b9">
+          <div class="cell c1"></div>
+          <div class="cell c2"></div>
+          <div class="cell c3"></div>
+          <div class="cell c4"></div>
+          <div class="cell c5"></div>
+          <div class="cell c6"></div>
+          <div class="cell c7"></div>
+          <div class="cell c8"></div>
+          <div class="cell c9"></div>
+        </div>
+      </div>
+      <div class="selector">
+        <div class="sell cell s1">1</div>
+        <div class="sell cell s2">2</div>
+        <div class="sell cell s3">3</div>
+        <div class="sell cell s4">4</div>
+        <div class="sell cell s5">5</div>
+        <div class="sell cell s6">6</div>
+        <div class="sell cell s7">7</div>
+        <div class="sell cell s8">8</div>
+        <div class="sell cell s9">9</div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
